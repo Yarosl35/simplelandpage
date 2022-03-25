@@ -1,0 +1,15 @@
+.MainModal {
+  &__dialog {
+    @media (min-width: 786px) {
+      max-width: 750px;
+    }
+  }
+  &__mycontent {
+    border-radius: 30px;
+    overflow: hidden;
+    padding: 10px;
+    & > div {
+      border: none;
+    }
+  }
+}

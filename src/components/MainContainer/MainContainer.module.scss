@@ -1,0 +1,19 @@
+.MainContainer {
+  flex-grow: 1;
+  background-color: darkgrey;
+  padding: 20px 2rem;
+  width: 100%;
+  & > div:last-child > div > div{
+    height: 300px;
+    width: 100%;
+    img{
+      max-height: 50%;
+      width: auto;
+      max-width: 100%;
+      margin: auto;
+    }
+    @media (min-width: 768px) {
+      height: 400px;
+    }
+  }
+}

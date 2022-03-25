@@ -1,0 +1,12 @@
+.TheCard {
+  text-align: center;
+  padding: 20px 10px;
+  .popupBtn {
+    background-color: aquamarine;
+    color: #000;
+  }
+  .popupBtn:hover,
+  .popupBtn:active {
+    opacity: 0.8;
+  }
+}

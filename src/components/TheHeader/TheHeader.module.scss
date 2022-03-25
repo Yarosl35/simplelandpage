@@ -1,0 +1,14 @@
+.TheHeader {
+  background-color: blue;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  &__container {
+    & > a.titlelink {
+      color: #fff;
+    }
+    .collapse a.navlink {
+      color: #fff;
+    }
+  }
+}
